@@ -4,5 +4,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://astro-starter-template-alpha.vercel.app/',
   integrations: [sitemap()],
 });
